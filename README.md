@@ -1,4 +1,4 @@
-# Currency-Converter
+# [Currency-Converter](https://kartick-basak.github.io/Currency-Converter/)
 Currency Converter
 This is a simple, modern, and responsive currency converter web application. It fetches the latest exchange rates from a public API to provide accurate, real-time conversions between a selection of common world currencies.
 
