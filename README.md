@@ -2,6 +2,12 @@
 Currency Converter
 This is a simple, modern, and responsive currency converter web application. It fetches the latest exchange rates from a public API to provide accurate, real-time conversions between a selection of common world currencies.
 
+## Built With:
+- <img src="https://github.com/Kartick-Basak/Project1/blob/main/Logo/html.webp" alt="logo" width="25" height="25"> HTML
+- <img src="https://github.com/Kartick-Basak/Project1/blob/main/Logo/css.svg" alt="logo" width="25" height="25"> CSS
+- <img src="https://github.com/Kartick-Basak/Project1/blob/main/Logo/Java%20Script.png" width="25" height="25"> Javascript
+
+
 ## Features
 - ⏳ **Real-Time Rates:** Fetches up-to-date exchange rates from a free, public API (open.er-api.com).
 
@@ -29,3 +35,6 @@ The application's core logic is handled by the Javascript file:
 
     - Event Handling: The application listens for changes in the amount input or currency selections, automatically updating the conversion result in real-time.
 
+### Here is the webpage:
+[Currency Converter](https://kartick-basak.github.io/Currency-Converter/)
+![Alt Text](https://github.com/Kartick-Basak/Currency-Converter/blob/main/Currency%20SS.png)
