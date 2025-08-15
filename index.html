@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Currency Converter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Currency Converter 🪙</h1>
+        <p>Get real-time exchange rates in your fingertips  </p>
+
+
+        <div class="form-container">
+
+            <div class="input-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" value="1" placeholder="Enter amount">
+            </div>
+
+            <div class="currency-inputs">
+    
+                <div class="currency-group">
+                    <label for="from-currency">From</label>
+                    <div class="select-wrapper">
+                        <select id="from-currency" class="currency-select">
+                           
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="swap-button-container">
+                    <button id="swap-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="swap-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                        </svg>
+                    </button>
+                </div>
+
+               
+                <div class="currency-group">
+                    <label for="to-currency">To</label>
+                     <div class="select-wrapper">
+                        <select id="to-currency" class="currency-select">
+                           
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+        <div id="result-container" class="result-container">
+             <div id="loading">Fetching exchange rates...</div>
+             <div id="result" class="result-text"></div>
+             <div id="rate" class="rate-text"></div>
+        </div>
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
