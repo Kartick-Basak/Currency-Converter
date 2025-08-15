@@ -38,4 +38,4 @@ The application's core logic is handled by the Javascript file:
 
 ### Here is the webpage:
 [Currency Converter](https://kartick-basak.github.io/Currency-Converter/)
-![Alt Text](https://github.com/Kartick-Basak/Currency-Converter/blob/main/Currency%20SS.png)
+![Alt Text](https://github.com/Kartick-Basak/Currency-Converter/blob/main/Currency%20SS1.png)
